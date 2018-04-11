@@ -2,6 +2,22 @@
 *** GENERAL
 **********************************************/
 
+
+.finalscore {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 520px;
+    color: #555;
+    font-family: Lato;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    width: 160px;
+    text-transform: uppercase;
+
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -103,7 +119,7 @@ body {
     font-size: 30px;
 }
 
-button {
+button{
     position: absolute;
     width: 200px;
     left: 50%;
@@ -140,6 +156,7 @@ i {
 .btn-new { top: 45px;}
 .btn-roll { top: 403px;}
 .btn-hold { top: 467px;}
+
 
 .dice {
     position: absolute;
