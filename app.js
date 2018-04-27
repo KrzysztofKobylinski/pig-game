@@ -36,7 +36,7 @@ document.querySelector('.btn-hold').addEventListener('click', function() {
         }
 
         if (scores[activePlayer] >= winningScore) {
-            document.querySelector("#name-" + activePlayer).textContent = 'Winner!';
+            document.querySelector("#name-" + activePlayer).textContent = 'Wygrałeś!';
             document.getElementById('dice-1').style.display = 'none';
             document.getElementById('dice-2').style.display = 'none';
             document.querySelector('.player-' + activePlayer + '-panel').classList.add('winner');
@@ -72,8 +72,8 @@ function init() {
     document.getElementById('score-1').textContent = '0';
     document.getElementById('current-0').textContent = '0';
     document.getElementById('current-1').textContent = '0';
-    document.getElementById("name-0").textContent = 'Player 1';
-    document.getElementById("name-1").textContent = 'Player 2';
+    document.getElementById("name-0").textContent = 'Gracz 1';
+    document.getElementById("name-1").textContent = 'Gracz 2';
     document.querySelector('.player-0-panel').classList.remove('winner');
     document.querySelector('.player-1-panel').classList.remove('winner'); 
     document.querySelector('.player-0-panel').classList.remove('active'); 

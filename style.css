@@ -18,10 +18,10 @@
 
 }
 #dice-1 {
-    top: 120px;
+    top: 140px;
 }
 #dice-2 {
-    top: 250px;
+    top: 270px;
 }
 * {
     margin: 0;
@@ -147,6 +147,16 @@ button:focus {
     outline: none;
 }
 
+
+a {  color: #555 } /* Globally */
+
+/* Each state */
+
+a:visited { text-decoration: none;  color: #555;}
+a:hover { text-decoration: none;  color: #555; }
+a:focus { text-decoration: none;  color: #555; }
+a:hover, a:active { text-decoration: none;  color: #555; }
+
 i {
     color: #EB4D4D;
     display: inline-block;
@@ -158,7 +168,8 @@ i {
     transition: margin 0.3s;
 }
 
-.btn-new { top: 45px;}
+.btn-new { top: 85px;}
+.btn-rules { top: 30px;}
 .btn-roll { top: 403px;}
 .btn-hold { top: 467px;}
 
